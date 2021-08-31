@@ -11,11 +11,13 @@ body {
 /*############### nav bar#########*/
 
 nav{
+  
     width: 100%;
     margin: 0;
 }
+
 nav ul {
-    background-color: #eee;
+    background: #3f87a66e;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -28,13 +30,17 @@ ul.topnav li.topnav-right{
     float: right;
 }
 ul.topnav li a{
+
+    color:#002fffb0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     text-decoration: none;
     min-height: 16px;
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
+    
 }
 /*################ HAMBURGER ############*/
 
@@ -148,15 +154,22 @@ ul.topnav li.dropdownicon {
 
         
     }
-   
+    .linkovi a {
+        width: 100px;
+        line-height: 25px;
+        text-align: center;
+        display: block;
+    }
+   #mine{
+       width: 200px;
+   }
     .prvo{
         color: darkblue;
         background-color:rgb(255, 145, 0); ;
         border: none;
         border-radius: 5px;
         padding: 5px;  
-        font-family: Verdana, Geneva, Tahoma, sans-serif;  
-        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;  ;
         text-decoration: none; 
         margin:1%;
     }
