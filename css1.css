@@ -77,6 +77,30 @@ ul.topnav li.dropdownicon {
         display: block;
         text-align: left;
     }
+    .col-6{
+        width: 100%;
+        margin: 0%;
+    }
+    div.leftside-col,
+    div.rightside-col{
+        margin: 15px;
+    }
+    input[type="text"] {
+        width: 350px;
+  
+    }
+    .videocontainer iframe{
+        position: relative;
+        width: 100%;
+        margin: 0%;
+    }
+    .veliki1 iframe{
+        position: relative;
+        width: 100%;
+        margin: 0%;
+        
+    }
+
 }
 
 
@@ -151,7 +175,7 @@ ul.topnav li.dropdownicon {
         justify-content: center;
         height: 100px;
        }
-        
+       
         
     
         .manji{
@@ -171,9 +195,9 @@ ul.topnav li.dropdownicon {
             align-items: center;
             justify-content:space-evenly;
             height: 100px;
-            flex-grow: 12;
-        
-             }
+            flex-grow: 12;}
+
+    
  
             .icon{
                 height:80px;
@@ -239,12 +263,17 @@ ul.topnav li.dropdownicon {
            font-size: 25px;
 
         }
+
+
         .emin{
             display:block;
             align-items: center;
             justify-content: center;
             text-align: center;
         }
+     
+
+        
          /*         dole NEW CONTAINER     */
 
         .newcontainer{
@@ -284,7 +313,8 @@ input[type="text"]{
     font-size: 15px;
     width: 150px;
     min-width: 100px;
-    padding: 5px
+    padding: 5px;
+    border-radius: 7px;
 }
 h1.large{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -298,7 +328,7 @@ form h3 {
     color: rgb(0, 0, 0);
     
 }
-.leftside-col{
+div.leftside-col{
     margin-left: 70px;
 }
 
@@ -314,3 +344,8 @@ form h3 {
         .col-10{width: 83,33%;}
         .col-11{width: 91.66%;}
         .col-12{width: 100%;}
+
+        div.rightside-col{
+            margin: 15%;
+        }
+       
