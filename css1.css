@@ -194,7 +194,6 @@ ul.topnav li.dropdownicon {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     }
     .img {
-        image-rendering: optimizeSpeed;
         border-radius: none;
         width: 85px;
         height: 85px;
@@ -408,7 +407,6 @@ ul.topnav li.dropdownicon {
 }
 
 .img {
-    image-rendering: optimizeSpeed;
     border-radius: none;
     width: 85px;
     height: 85px;
