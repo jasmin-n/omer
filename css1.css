@@ -152,10 +152,25 @@ ul.topnav li.dropdownicon {
         display: block;
         text-align: left;
     }
+    article p {
+        font-size: 25px;
+    }
+    .col-7,
     .col-6,
+    .col-5,
     .col-4 {
         width: 100%;
         margin: 0%;
+    }
+    div.mobilestack {
+        width: 50%;
+        display: block;
+    }
+    div.taraba {
+        margin: 20px;
+    }
+    div.taraba img {
+        width: 100%;
     }
     div.box1 {
         padding: 5px;
@@ -193,8 +208,8 @@ ul.topnav li.dropdownicon {
         font-size: 35px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     }
-    .img {
-        border-radius: none;
+    .img0 {
+        text-align: center;
         width: 85px;
         height: 85px;
         border: 2px solid rgba(255, 102, 0, 0.651);
@@ -406,8 +421,8 @@ ul.topnav li.dropdownicon {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
 }
 
-.img {
-    border-radius: none;
+.img0 {
+    text-align: center;
     width: 85px;
     height: 85px;
     border: 2px solid rgba(255, 102, 0, 0.651);
@@ -692,4 +707,45 @@ p {
 button.learnmore {
     display: block;
     margin: auto;
+}
+
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+
+div.taraba img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px/*horizontal*/
+    -2px/*vertical*/
+    5px/*blur*/
+    2px/*sprad*/
+    rgba(0/*shadow*/
+    , 0/*backgroundcol*/
+    , 0/*boxcolor*/
+    , .15/*opacity*/
+    ), 2px 2px 4px 2px rgba(0, 0, 0, 1);
+}
+
+footer.footsy {
+    background-color: paleturquoise;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    line-height: 1.5;
 }
