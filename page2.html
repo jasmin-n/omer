@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="page2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bebadruze copy.png">
+    <title>
+        Omer
+    </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Macondo|Open+sans+consedensed:300|Spirax" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- -----------------------NAV------------------------------------>
+
+
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="index.html"><b>POCETNA</b></a></li>
+            <li class="topnav-right"><a href="SIGNIN"><b>REGISTRUJ SE</b></a></li>
+            <li class="topnav-right"><a href="SIGNUP"><b>ULOGUJ SE</b></a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <!-- -------------------POZADINA--------------------- -->
+    <div class="textonama">
+        <h1>
+            NASA PORODICA
+        </h1>
+        <h2>
+            Nasa porodica sastoji se od sedam clanova. Prvi clan, stub nase porodice je nasa majka. Drugi clanovi nase porodice su midzo-Tarik, strina Merima, mama Ena, brat Ahmed, baba Jasmin i TI (Omi)
+        </h2>
+    </div>
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="" class="fullscreen-bg__video">
+            <source src="video.mp4" type="video/webm">
+            
+        </video>
+    </div>
+
+    <div class="GALERIAJA">
+        <div class="image0">
+            <img src="1.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="2.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="3.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="4.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="5.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="6.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="7.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="8.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+        <div class="image0">
+            <img src="9.jpg">
+            <h1>Image Name</h1>
+
+        </div>
+    </div>
+
+</body>
