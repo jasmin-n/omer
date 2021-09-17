@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="page2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bebadruze copy.png">
+    <title>
+        Omer
+    </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Macondo|Open+sans+consedensed:300|Spirax" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="flex">
+
+
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html"><b>POCETNA</b></a></li>
+                <li><a href="page2.html"><b>O NAMA </b></a></li>
+
+                <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+
+        <!-- ////////////////////FOOTER////////////////////////// -->
+
+
+
+        <footer class="footsy">
+
+            <div class="col-3 mobilestack">
+                <h2>Podrzano od strane Taraba design tima</h2>
+                <ul>
+                    <li><img src="taraba.jpg"></li>
+
+                </ul>
+            </div>
+            <div class="pomeram">
+                <h2>Company</h2>
+                <ul>
+                    <li>
+                        <a class="malo" href="https://www.instagram.com/taraba.design/">TARABA DESIGN</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </footer>
+
+
+</body>
+
+</html>
